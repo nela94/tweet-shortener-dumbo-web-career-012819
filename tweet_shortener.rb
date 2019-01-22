@@ -6,7 +6,7 @@ end
 def word_substituter(tweet)
 tweet_array = tweet.split(" ")
 tweet_array.map do |word|
-  replacements.each do |key, value|
+  dictionary.each do |key, value|
     word = value if word.downcase == key
   end
   word
