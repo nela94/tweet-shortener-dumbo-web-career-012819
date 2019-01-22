@@ -11,3 +11,4 @@ tweet_array.map do |word|
   end
   word
 end.join(" ")
+end
