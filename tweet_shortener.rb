@@ -12,3 +12,12 @@ tweet_array.map do |word|
   word
 end.join(" ")
 end
+
+def bulk_tweet_shortener(tweets)
+    new_tweet = tweet.split (" ")
+    new_tweet.collect do |word|
+      puts word_substituter(tweet)
+    end
+    word
+  end.join(" ")
+end
